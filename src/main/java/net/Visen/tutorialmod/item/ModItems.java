@@ -18,6 +18,9 @@ public class ModItems {
     public static final RegistryObject<Item> ETBILU = ITEMS.register("etbilu",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
+    public static final RegistryObject<Item> RAW_ETBILU = ITEMS.register("raw_etbilu",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
